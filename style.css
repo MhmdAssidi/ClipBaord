@@ -1,0 +1,310 @@
+.attribution { font-size: 12px;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+    body{
+        
+        background-image: url("./images/bg-header-desktop.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        Font-size:18px;
+        font-family: 'Bai Jamjuree', sans-serif;  
+        height: 100vh;
+        margin: 150px 0;
+        overflow-x: hidden;
+    }
+    html,
+    body {
+      
+        overflow-x: hidden;
+    }
+    
+     h1 h2 h3{
+        
+     font-weight: 600;
+     
+    }
+
+    p{
+        opacity: 0.4;
+        font-weight: 400;
+    }
+    
+    .main-header{
+          display: flex;
+        text-align: center;
+        justify-content: center; 
+        
+    }
+
+    .clipboard{
+        display: flex;
+        text-align: center;
+        justify-content: center; 
+        
+    }
+    
+
+button{
+    padding: 20px 20px;
+      
+        margin: 30px;
+        background: linear-gradient(45deg, hsl(171, 66%, 44%), hsl(171, 66%, 44%));
+        border: none;
+        color: white;
+        font-size: 20px;
+        border-radius: 40px;
+        cursor: pointer;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.mac-button{
+        background: linear-gradient(45deg, hsl(233, 100%, 69%), hsl(233, 100%, 69%));
+    }
+
+
+
+ 
+.track-text{
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    margin: 70px;
+    padding: 30px;
+}
+.trackPar{
+    padding-top: 41px;
+}
+
+    .contentTrack-box{
+        display: flex;
+        align-items: center;
+        padding-left: 46px;
+  
+        }   
+
+
+.contentTrack-text {
+    padding-top: 111px;
+    margin-left: 45px;
+    margin-top: -216px;
+}
+.access{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.access div{
+    padding: 30px;
+}
+
+.workflow{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.contentWorkflow-box{
+    display: flex;
+    margin: 70px 200px;
+    padding-top: 40px;
+}
+
+.contentWorkflow-box div{
+    padding: 20px;
+}
+
+.images{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    margin:40px 10px;
+
+}
+.images div img{
+    padding: 30px;
+}
+ul li a{
+    text-decoration: none;
+    color: #000;
+    opacity: 0.7;
+    } 
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 6%, 97%);
+    
+}
+
+.footer-content{
+    text-align: center;
+    line-height: 69px;
+    margin-top: 64px;
+}
+
+.footer-links{
+    font-weight: 600;
+    list-style-type: none;
+
+}
+
+.footer a{
+    padding: 20px;
+}
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+
+body{
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    width: 80%;
+    
+}
+.contentTrack-box{
+    width: 80%;
+    display: block;
+   
+
+}
+
+.contentTrack-box img{
+    width: 80%;
+    margin-left: 90px;
+}
+
+.access img{
+    
+    width:100%;
+}
+
+.workflow div{
+    width:auto;
+    display: inline-block;
+}
+.images img{
+    display: block;
+}
+.footer{
+    margin-top: -8px;
+}
+
+
+  
+  }
+
+  @media (max-width: 481px) {
+    body {
+      font-size: 16px; 
+      text-align: center;
+    }
+  
+    button {
+        width:80%;
+      max-width: 100%; 
+    }
+  .track-container{
+    display: block;
+    text-align: center;
+  }
+  .track-container .track-text{
+    width:80%;
+      max-width: 100%; 
+      margin: 70px auto; 
+
+  }
+    
+    
+        .contentTrack-text div{
+        padding-bottom: 30px;
+        }
+    .access img {
+      width: 100%;
+    }
+  
+    .workflow div {
+      width: 100%;
+      display: block;
+      text-align: center;
+      margin: 0 auto;
+    }
+  
+    .images img {
+      width: auto;
+      max-width: 100%;
+      display: block;
+      margin: 0 auto;
+    }
+}
+  @media screen and (min-width: 390px) and (max-width: 1066px) {
+  .contentTrack-box{
+display: block;
+text-align: center;
+
+
+  }
+
+
+.contentTrack-text {
+    padding-top: 111px;
+    margin-top: -61px;
+    line-height: 52px;
+}
+
+.contentTrack-box img {
+    width: 115%;
+    margin: auto;
+}
+
+
+
+
+
+  }
+
+
+  @media screen and (min-width: 390px) and (max-width: 768px) {
+  
+    footer .footer-content .footer-links {
+        list-style-type: none;
+         width: 84%;
+         display: block;
+         line-height: 50px;
+         margin: auto;
+     }
+     .attribution{
+         width: 57%;
+         /* text-align: center; */
+         margin: auto;
+         line-height: 28px;
+     }
+}
+
+
+
+
